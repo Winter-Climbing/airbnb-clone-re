@@ -5,7 +5,7 @@ import MainHeader from '../components/MainPage/MainHeader';
 import MainNav from '../components/MainPage/MainNav';
 import MainFooter from '../components/MainPage/MainFooter'
 import MainFilter from '../components/MainPage/MainFilter';
-import JsonMain from '../components/MainPage/JsonMain';
+import MainContainer from '../containers/home/main/MainContainer'
 
 // Data
 
@@ -20,7 +20,7 @@ const MainPage = (props) => {
     <div>
       <MainHeader/>
       <MainNav filter={filter} setFilter={setFilter} />
-      <JsonMain></JsonMain>
+      <MainContainer></MainContainer>
       <MainFooter></MainFooter>
       {filter === true && <MainFilter filter={filter} setFilter={setFilter}/>}
     </div>

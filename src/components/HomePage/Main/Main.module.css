@@ -1,0 +1,97 @@
+.lodging {
+  width: 321px;
+  height: 405px;
+}
+
+.lodging_img_objectfit {
+  width: 321px;
+  height: 305px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.lodging_img {
+  width: 321px;
+  height: 305px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.lodging_img_heartBtn {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 7%;
+  top: 4%;
+}
+
+.heartIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.lodging_rightBtn {
+  display: none;
+  width: 28px;
+  height: 28px;
+  background-color: var(--color-white);
+  border-radius: 50px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--color-light-grey);
+  border: 1px solid var(--color-airbnb-grey);
+  opacity: 0.9;
+  position: absolute;
+  right: 4%;
+  top: 43%;
+}
+
+.lodging_text {
+  color: var(--color-airbnbFont-grey);
+}
+
+.lodging_text p {
+  font-size: 16px;
+}
+
+.lodging_text_title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.lodging_text_title_star {
+  display: flex;
+  align-items: center;
+}
+
+.lodging_text_title_star_img {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+.lodging_text_title h2 {
+  font-size: 16px;
+  color: var(--color-font-black);
+  font-weight: 600;
+}
+
+.lodging_text_title span {
+  font-size: 15px;
+  color: var(--color-font-black);
+  font-weight: 400;
+}
+
+.lodging_text_bottom {
+  margin-bottom: 5px;
+}
+
+.lodging_text_price {
+  color: var(--color-font-black);
+  font-weight: 600;
+}
