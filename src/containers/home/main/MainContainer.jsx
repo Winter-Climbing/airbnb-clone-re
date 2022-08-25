@@ -5,13 +5,11 @@ import Main from '../../../components/HomePage/Main/Main';
 const MainContainer = () => {
 
   return (
-    <div>
-      <main>
-        <article id={styles.article}>
-          <Main></Main>
-        </article>
-      </main>
-    </div>      
+    <main>
+      <article id={styles.article}>
+        <Main></Main>
+      </article>
+    </main>
   );
 };
 

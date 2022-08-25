@@ -23,12 +23,6 @@
   --weight-bold: 700;
   --weight-semi-bold: 600;
   --weight-regular: 400;
-
-  /* Size */
-  --size-border-radious: 4px;
-
-  /* Annimations */
-  --annimation-duration: 300ms;
 }
 
 /* Universal tags */
