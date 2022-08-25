@@ -3,7 +3,7 @@ import LodgingData from "../../../lib/LodgingData.json"
 import styles from "./Main.module.css"
 import { Link } from "react-router-dom";
 
-const JsonMain = () => {
+const Main = () => {
   <Link to="/detailpage"></Link>
 
   return (
@@ -46,4 +46,4 @@ const JsonMain = () => {
   );
 };
 
-export default JsonMain;
+export default Main;
