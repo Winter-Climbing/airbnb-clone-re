@@ -1,21 +1,21 @@
 import React from 'react';
-// MP = MainPage
-import MP from "../../css/mainPage/footer.module.css" 
+// styles = MainPage
+import styles from "../../css/mainPage/footer.module.css" 
 
 const Mainfooter = () => {
 
   return (
     <div>
-      <footer id={MP.footer}>
-        <button className="footer_mapBtn">
+      <footer id={styles.footer}>
+        <button className={styles.footer_mapBtn}>
           지도 표시하기
-          <img className='footer_mapBtn_img' src="./img/map.svg" alt="지도" />
+          <img className={styles.footer_mapBtn_img} src="./img/map.svg" alt="지도" />
         </button>
-        <div className={MP.footer}>
-          <div className="footer_contents">
-            <div className="footer_contents_left">
+        <div className={styles.footer}>
+          <div className={styles.footer_contents}>
+            <div className={styles.footer_contents_left}>
               <span>
-                <img src="./img/c-50.png" alt="company 로고" /> Airbnb, Inc
+                <img src="./img/c-50.png" alt="costylesany 로고" /> Airbnb, Inc
               </span>
               <span>개인정보 처리방침</span>
               <span>이용약관</span>
@@ -23,8 +23,8 @@ const Mainfooter = () => {
               <span>한국의 변경된 환불 정책</span>
               <span>회사 세부정보</span>
             </div>
-            <div className={MP.footer_contents_right}>
-              <button className={MP.footer_contents_right_globeBtn}>
+            <div className={styles.footer_contents_right}>
+              <button className={styles.footer_contents_right_globeBtn}>
                 <img src="./img/detailPage/globe.svg" alt="지구본"/>
                 <span>&nbsp;한국어(KR)</span>
               </button>
@@ -38,8 +38,8 @@ const Mainfooter = () => {
               </button>
             </div>
           </div>
-          <div className="footer_blahblah">
-            웹사이트 제공자: Airbnb Ireland UC, private unlimited company, 8
+          <div className={styles.footer_blahblah}>
+            웹사이트 제공자: Airbnb Ireland UC, private unlimited costylesany, 8
             Hanover Quay Dublin 2, D02 DP23 Ireland | 이사: Dermot Clarke, Killian
             Pattwell, Andrea Finnegan | VAT 번호: IE9827384L | 사업자 등록 번호:
             IE 511825 | 연락처: terms@airbnb.com, 웹사이트, 080-822-0230 | 호스팅

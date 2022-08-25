@@ -1,0 +1,84 @@
+.footer {
+  background-color: #f5f5f5;
+  padding: 0px 80px;
+  border-top: 1px solid var(--color-airbnb-grey);
+}
+
+.footer_mapBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 48px;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  position: absolute;
+  left: 45%;
+  top: -105%;
+}
+
+.footer_mapBtn_img {
+  width: 15px;
+  height: 14px;
+  margin-left: 7px;
+}
+
+.footer_contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 0px 14px 0px;
+  border-bottom: 1px solid var(--color-airbnb-grey);
+}
+
+.footer_contents_left {
+  color: var(--color-font-black);
+  font-size: 14px;
+}
+
+.footer_contents_left img {
+  width: 14px;
+  height: 14px;
+}
+
+.footer_contents_left span:not(:last-of-type)::after {
+  content: "ꞏ";
+  display: inline-block;
+  width: 1px;
+  margin: 0 8px;
+}
+
+.footer_contents_right {
+  display: flex;
+  align-items: center;
+  width: 329px;
+}
+
+.footer_contents_right button {
+  display: flex;
+  align-items: center;
+  padding: 1px 10px;
+  color: var(--color-font-black);
+  font-weight: 600;
+  font-size: 14px;
+  height: 18px;
+}
+
+.footer_contents_right button img {
+  width: 16px;
+  height: 16px;
+}
+
+.footer_contents_right span {
+  font-size: 14px;
+}
+
+.footer_blahblah {
+  color: var(--color-airbnbFont-grey);
+  font-size: 10px;
+  line-height: 12px;
+  padding: 8px 0px;
+}
