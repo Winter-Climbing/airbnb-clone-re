@@ -3,11 +3,11 @@ import styles from './Main.module.css'
 
 const MainCalender = () => {
   return (
-    <section id="calender">
+    <section id={styles.calender}>
       <h2>MV에서 5박</h2>
       <p>2022년 10월 12일 - 2022년 10월 17일</p>
-      <div className="calender_detail">
-        <div className="calender_detail_month">
+      <div className={styles.calender_detail}>
+        <div className={styles.calender_detail_month}>
           <h3>2022년 10월</h3>
           <div>
             <table>
@@ -76,7 +76,7 @@ const MainCalender = () => {
             </table>
           </div>
         </div>
-        <div className="calender_detail_month">
+        <div className={styles.calender_detail_month}>
           <h3>2022년 11월</h3>
           <table>
             <thead>
@@ -135,7 +135,7 @@ const MainCalender = () => {
           </table>
         </div>
       </div>
-      <div className="calender_bottom">
+      <div className={styles.calender_bottom}>
         <img src="./img/detailPage/keyboard.svg" alt="키보드" />
         <span>날짜 지우기</span>
       </div>

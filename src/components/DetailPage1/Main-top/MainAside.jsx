@@ -3,7 +3,7 @@ import styles from './Main.module.css'
 
 const MainAside = () => {
   return (
-    <aside className={styles.main_right}>
+    <>
       <div className={styles.main_right_top}>
         <h1>&#8361;782,076<span> /박</span></h1>
         <div className={styles.main_right_inOut}>
@@ -56,7 +56,7 @@ const MainAside = () => {
         <img src="./img/detailPage/declare.svg" alt="신고하기" />
         <span>숙소 신고하기</span>
       </div>
-    </aside>
+    </>
   );
 };
 

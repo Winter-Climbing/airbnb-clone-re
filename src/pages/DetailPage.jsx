@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 
 
-import DetailFooter from '../components/DetailPage/DetailFooter';
 import DetailPoP from '../components/DetailPage/DetailPoP';
+import FooterContainer from '../containers/detail/footer/FooterContainer';
 import HeaderContainer from '../containers/detail/header/HeaderContainer';
 import ImageSectionContainer from '../containers/detail/ImageSection/ImageSectionContainer';
 import MainContainer from '../containers/detail/main/MainContainer';
@@ -14,10 +14,10 @@ const DetailPage = () => {
   
   return (
     <div>
-      <HeaderContainer></HeaderContainer>
-      <ImageSectionContainer></ImageSectionContainer>
+      <HeaderContainer/>
+      <ImageSectionContainer/>
       <MainContainer/>
-      <DetailFooter></DetailFooter>
+      <FooterContainer/>
       {pop === false && <DetailPoP pop={pop} setFilter={setPop}/>}
     </div>
   );

@@ -339,6 +339,7 @@ const DetailMain = () => {
             </div>
           </div>
         </section>
+
         <section className="hosting">
           <h2>호스팅 지역</h2>
           <p>몰디브</p>
@@ -366,6 +367,7 @@ const DetailMain = () => {
             </div>
           </div>
         </section>
+
         <section id="host_intro">
           <div className="host_intro_header">
             <img
@@ -415,6 +417,7 @@ const DetailMain = () => {
             </div>
           </div>
         </section>
+        
         <section id="checkList">
           <h2>알아두어야 할 사항</h2>
           <div className="checkList_contents">
