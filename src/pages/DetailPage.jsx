@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 
-import DetailImage from '../components/DetailPage/DetailImage';
+
 import DetailMain from '../components/DetailPage/DetailMain';
 import DetailFooter from '../components/DetailPage/DetailFooter';
 import DetailPoP from '../components/DetailPage/DetailPoP';
 import HeaderContainer from '../containers/detail/header/HeaderContainer';
+import ImageSectionContainer from '../containers/detail/ImageSection/ImageSectionContainer';
 
 const DetailPage = () => {
 
@@ -12,7 +13,7 @@ const DetailPage = () => {
   return (
     <div>
       <HeaderContainer></HeaderContainer>
-      <DetailImage></DetailImage>
+      <ImageSectionContainer></ImageSectionContainer>
       <DetailMain></DetailMain>
       <DetailFooter></DetailFooter>
       {pop === false && <DetailPoP pop={pop} setFilter={setPop}/>}
