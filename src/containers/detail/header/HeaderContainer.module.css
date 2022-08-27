@@ -1,0 +1,16 @@
+/* Header */
+
+#header {
+  width: 100%;
+  border-bottom: 0.1px solid #dddddd;
+}
+
+.header_flex {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+  margin: 0px 119px;
+  padding: 0px 80px;
+  align-items: center;
+  height: 80px;
+}
