@@ -36,13 +36,6 @@ const DetailPoP = (props) => {
           </div>
         </div>
       </div>
-      <div style={{ height: "300vh", background: "#eee" }} ref={scrollRef}>
-      {!hideElement && (
-        <div style={{ position: "fixed", background: "#fff" }}>
-          <span>스크롤을 일정 수치만큼 내리면 이 영역은 사라집니다!</span>
-        </div>
-      )}
-    </div>
     </div>
   );
 };
