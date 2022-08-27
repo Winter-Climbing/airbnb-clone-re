@@ -9,13 +9,13 @@ const Main = () => {
   return (
     <>
       {
-        LodgingData.map((index, i) => {
+        LodgingData.map((lodging) => {
             return (
-              <div key={i}>
+              <div key={lodging.id}>
                 <Link to="/detailpage">
                   <section className={styles.lodging}>
                     <div className={styles.lodging_img}>
-                      <img className={styles.lodging_img_objectfit} src={index.background} alt="몰디브사진" />
+                      <img className={styles.lodging_img_objectfit} src={lodging.background} alt="몰디브사진" />
                       <button className={styles.lodging_img_heartBtn}>
                         <img
                           src="./img/favorite_border.svg"
@@ -27,14 +27,14 @@ const Main = () => {
                     </div>
                     <div className={styles.lodging_text}>
                       <div className={styles.lodging_text_title}>
-                        <h2>{index.title}</h2>
+                        <h2>{lodging.title}</h2>
                         <span className={styles.lodging_text_title_star}>
-                          <img className={styles.lodging_text_title_star_img} src="./img/star.svg" alt="별표" />{index.star}
+                          <img className={styles.lodging_text_title_star_img} src="./img/star.svg" alt="별표" />{lodging.star}
                         </span>
                       </div>
-                      <p>{index.distance}</p>
-                      <p className={styles.lodging_text_bottom}>{index.date}</p>
-                      <p><span className={styles.lodging_text_price}>&#8361;{index.price}</span> / 박</p>
+                      <p>{lodging.distance}</p>
+                      <p className={styles.lodging_text_bottom}>{lodging.date}</p>
+                      <p><span className={styles.lodging_text_price}>&#8361;{lodging.price}</span> / 박</p>
                     </div>
                   </section>
                 </Link>
