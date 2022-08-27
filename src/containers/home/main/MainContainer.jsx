@@ -7,7 +7,7 @@ const MainContainer = () => {
   return (
     <main>
       <article id={styles.article}>
-        <Main></Main>
+        <Main/>
       </article>
     </main>
   );

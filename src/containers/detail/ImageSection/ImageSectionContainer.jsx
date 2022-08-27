@@ -5,12 +5,10 @@ import Images from '../../../components/DetailPage1/ImageSection/Images';
 
 const ImageSectionContainer = () => {
   return (
-    <div>
-      <article>
-        <ImageTitle/>
-        <Images/>
-      </article>
-    </div>
+    <article>
+      <ImageTitle/>
+      <Images/>
+    </article>
   );
 };
 

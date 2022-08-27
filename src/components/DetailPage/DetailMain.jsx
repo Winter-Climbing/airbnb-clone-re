@@ -1,5 +1,5 @@
 import React from 'react';
-import DM from '../../css/detailPage/detailMain.module.css'
+import styles from '../../css/detailPage/detailMain.module.css'
 
 const DetailMain = () => {
   return (
@@ -7,9 +7,9 @@ const DetailMain = () => {
       <main id="main">
         {/* <!-- Main Left --> */}
 
-        <article className="main_left">
-          <header className="main_left_title">
-            <div className="main_left_title_text">
+        <article className={styles.main_left}>
+          <section className={styles.main_left_title}>
+            <div className={styles.main_left_title_text}>
               <h1>Dorothy님이 호스팅하는 돔하우스</h1>
               <span>최대 인원 6명</span>
               <span>침실 1개</span>
@@ -20,7 +20,7 @@ const DetailMain = () => {
               src="https://a0.muscache.com/im/pictures/user/0ea3cd74-7ce9-4f59-bf57-334651d552c6.jpg?im_w=240"
               alt=""
             />
-          </header>
+          </section>
 
           <section id="wait">
             <div className="wait_words">
@@ -44,7 +44,8 @@ const DetailMain = () => {
               </div>
             </div>
           </section>
-          <section id={DM.air_cover}>
+
+          <section id={styles.air_cover}>
             <img
               src="https://a0.muscache.com/pictures/aircover/aircover-logo-ko/original/c4217131-d53a-45b4-b78a-81fc968eefa0.svg"
               alt="에어커버로고"
@@ -72,6 +73,7 @@ const DetailMain = () => {
               있습니다.
             </p>
           </section>
+
           <section id="lodging_place">
             <h2>숙박 장소</h2>
             <div className="lodging_place_item">
@@ -80,6 +82,7 @@ const DetailMain = () => {
               <p>더블 침대 1개</p>
             </div>
           </section>
+
           <section id="convenient_facilities">
             <h2>숙소 편의시설</h2>
             <div className="convenient_facilities_grid">
@@ -114,6 +117,7 @@ const DetailMain = () => {
             </div>
             <button>편의시설 14개 모두 보기</button>
           </section>
+
           <section id="calender">
             <h2>MV에서 5박</h2>
             <p>2022년 10월 12일 - 2022년 10월 17일</p>
@@ -306,7 +310,6 @@ const DetailMain = () => {
           </div>
           <div className="main_right_bottom">
             <img src="./img/detailPage/declare.svg" alt="신고하기" />
-
             <span>숙소 신고하기</span>
           </div>
         </aside>
