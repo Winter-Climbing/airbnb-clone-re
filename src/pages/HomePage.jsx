@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 // 컴포넌트
 
-import MainFilter from '../components/MainPage/MainFilter';
+import MainFilter from '../components/HomePage/Filter/MainFilter';
 import HeaderContainer from '../containers/home/header/HeaderContainer';
 import MainContainer from '../containers/home/main/MainContainer'
 import FooterContainer from '../containers/home/footer/FooterContainer';
