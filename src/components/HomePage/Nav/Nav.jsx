@@ -26,7 +26,7 @@ const Nav = () => {
                   alt="아이콘"
                   className={styles.nav_btn_title_img}
                 />
-                <p className={styles.nav_btn_title_p}>{NavData.title}  </p>
+                <p className={styles.nav_btn_title_p}>{NavData.title}</p>
               </div>
             </button>
             )
