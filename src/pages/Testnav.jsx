@@ -1,23 +1,12 @@
-import React from 'react';
-import NavData from '../../../lib/NavData.json'
+import NavData from '../lib/NavData.json'
 import styles from './Nav.module.css'
 
-const Nav = () => {
+const TestNav = () => {
 
   
   return (
     <>
       <div className={styles.navBtn_flex}>
-        <div className={styles.nav_left_btnSpace}>
-          <button className={styles.nav_left_btnSpace_btn}>
-            <img src="./img/leftBtn.svg" alt="왼쪽버튼" />
-          </button>
-        </div>
-        <div className={styles.nav_right_btnSpace}>
-          <button className={styles.nav_right_btnSpace_btn}>
-            <img src="./img/rightBtn.svg" alt="오른쪽버튼" />
-          </button>
-        </div>
         {
           NavData.map((NavData) => {
             return (
@@ -39,4 +28,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default TestNav;

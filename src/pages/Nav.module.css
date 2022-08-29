@@ -1,0 +1,51 @@
+.navBtn_flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+  width: 1250px;
+  overflow: hidden;
+}
+
+.nav_btn {
+  padding: 0px;
+  height: 78px;
+  max-width: 88px;
+  color: var(--color-airbnbFont-grey);
+  filter: invert(45%) sepia(0%) saturate(0%) hue-rotate(118deg) brightness(96%)
+    contrast(88%);
+}
+
+.nav_btn:hover {
+  border-bottom: 2px solid var(--color-airbnb-grey);
+  filter: invert(8%) sepia(1%) saturate(1769%) hue-rotate(331deg)
+    brightness(103%) contrast(88%);
+  color: var(--color-font-black);
+  font-weight: 600;
+}
+
+.nav_btn:focus {
+  border-bottom: 2px solid var(--color-black);
+  filter: invert(8%) sepia(1%) saturate(1769%) hue-rotate(331deg)
+    brightness(103%) contrast(88%);
+  color: var(--color-font-black);
+  font-weight: 600;
+}
+
+.nav_btn_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+  height: 48px;
+  font-weight: 600;
+}
+
+.nav_btn_title_img {
+  width: 24px;
+  height: 24px;
+}
+
+.nav_btn_title_p {
+  font-size: 12px;
+}
