@@ -1,8 +1,8 @@
 .nav_flex {
-  padding: 0px 80px;
   z-index: 1;
   position: relative;
   width: 1250px;
+  padding: 20px 0px;
 }
 
 .slick-slide > div {
@@ -78,13 +78,13 @@
 
 .nav_right_btnSpace {
   position: absolute;
-  top: -25%;
-  right: -16.1%;
+  top: -160%;
+  right: 92.9%;
 }
 
 .nav_left_btnSpace {
   position: absolute;
-  top: -25%;
+  top: -160%;
   display: block;
 }
 
@@ -96,6 +96,7 @@
   border-radius: 50px;
   color: var(--color-light-grey);
   border: 1px solid var(--color-airbnb-grey);
+  transform: translate(25%, 100%);
 }
 
 .nav_left_btnSpace_btn > img,

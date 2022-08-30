@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import data from './NavDataTest.json'
-import styles from './Nav.module.css'
+import styles from './NavTest.module.css'
 
 
 
