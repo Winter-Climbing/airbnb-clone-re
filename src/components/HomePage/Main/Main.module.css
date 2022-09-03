@@ -32,6 +32,13 @@
   height: 24px;
 }
 
+.heartIconPaint {
+  width: 24px;
+  height: 24px;
+  filter: invert(43%) sepia(57%) saturate(6746%) hue-rotate(331deg)
+    brightness(109%) contrast(102%);
+}
+
 .lodging_rightBtn {
   display: none;
   width: 28px;
