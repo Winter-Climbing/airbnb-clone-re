@@ -1,5 +1,5 @@
 import React from 'react';
-import NavData from '../../../lib/NavData.json'
+import NavData from '../lib/NavData.json'
 import styles from './Nav.module.css'
 
 const Nav = () => {

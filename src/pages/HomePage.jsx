@@ -22,7 +22,7 @@ const HomePage = (props) => {
       <HeaderContainer/>
       <NavContainer filter={filter} setFilter={setFilter} />
       <MainContainer/>
-      <FooterContainer></FooterContainer>
+      <FooterContainer/>
       {filter === true && <MainFilter filter={filter} setFilter={setFilter}/>}
     </div>
   );

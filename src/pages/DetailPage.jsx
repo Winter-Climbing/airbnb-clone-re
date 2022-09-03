@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState, useEffect, useRef } from "react";
 
 
 
@@ -8,9 +8,28 @@ import ImageSectionContainer from '../containers/detail/ImageSection/ImageSectio
 import MainContainer from '../containers/detail/main/MainContainer';
 import PopContainer from '../containers/detail/pop/PopContainer';
 
-const DetailPage = () => {
 
-  const [pop, setPop] = useState(false)
+const DetailPage = (props) => {
+
+  const [scrollY, setScrollY] = useState(0);
+  const [test, setTest] = useState(599);
+
+
+  const listener = e => {
+    setScrollY(window.pageYOffset);
+  };
+
+
+  useEffect(() => {
+    window.addEventListener("scroll", listener);
+    return () => {
+      window.removeEventListener("scroll", listener);
+    };
+  });
+
+
+
+
   
   return (
     <div>
@@ -18,7 +37,7 @@ const DetailPage = () => {
       <ImageSectionContainer/>
       <MainContainer/>
       <FooterContainer/>
-      {pop === false && <PopContainer pop={pop} setFilter={setPop}/>}
+      {test < scrollY  && <PopContainer scrollY={scrollY}  />}
     </div>
   );
 };

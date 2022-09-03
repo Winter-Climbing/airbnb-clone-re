@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Nav.module.css'
+import styles from './NavFilter.module.css'
 
 const NavFilter = (props) => {
   return (
